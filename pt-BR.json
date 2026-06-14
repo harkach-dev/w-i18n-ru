@@ -1475,7 +1475,7 @@
           },
           "diamonds": {
             "label": "/diamonds",
-            "description": "Anuncia ajustes de diamonds feitos por admins dentro da sala."
+            "description": "Anuncia ajustes de diamantes feitos por admins dentro da sala."
           },
           "xp": {
             "label": "/xp",
@@ -1722,7 +1722,7 @@
         "message": "Chat pausado — role para baixo para retomar",
         "newMessages": "{count, plural, one {# nova mensagem} other {# novas mensagens}}"
       },
-      "quickProfile": "Perfil rápido",
+      "quickProfile": "Perfil",
       "close": "Fechar",
       "closeToast": "Fechar toast",
       "messageActions": "Ações da mensagem",
@@ -2801,7 +2801,7 @@
       "backgroundPremiumHint": "Fundos Premium também podem ser liberados com diamantes",
       "badgeFreeHint": "Emblemas liberadas para destacar sua conta no perfil",
       "badgeLevelHint": "Desbloqueie emblemas por nível e use no seu perfil",
-      "badgePremiumHint": "Emblemas Premium também podem ser liberadas com diamantes",
+      "badgePremiumHint": "Emblemas Premium também podem ser liberados com diamantes",
       "videoFrameFreeHint": "Molduras de vídeo liberadas para personalizar o player",
       "videoFrameLevelHint": "Desbloqueie molduras de vídeo por nível e guarde para a sua conta",
       "videoFramePremiumHint": "Molduras de vídeo Premium também podem ser liberadas com diamantes",
@@ -2840,13 +2840,13 @@
       "subscriberBenefitPremiumAvatarsTitle": "Avatares premium",
       "subscriberBenefitPremiumAvatarsDescription": "Use avatares premium sem gastar diamantes por item.",
       "subscriberBenefitPremiumBadgesTitle": "Emblemas premium",
-      "subscriberBenefitPremiumBadgesDescription": "Equipe emblemas premium liberados para assinantes.",
+      "subscriberBenefitPremiumBadgesDescription": "Compre ou resgate emblemas premium exclusivos para assinantes.",
       "subscriberBenefitPremiumBackgroundsTitle": "Fundos premium",
       "subscriberBenefitPremiumBackgroundsDescription": "Escolha fundos premium para personalizar suas salas.",
       "subscriberBenefitPremiumVideoFramesTitle": "Videoframes premium",
       "subscriberBenefitPremiumVideoFramesDescription": "Personalize o player com videoframes premium.",
-      "subscriberBenefitSubscriptionBadgesTitle": "Emblemas automáticos",
-      "subscriberBenefitSubscriptionBadgesDescription": "{count, plural, one {# emblema entregue automaticamente ao assinar.} other {# emblemas entregues automaticamente ao assinar.}}",
+      "subscriberBenefitSubscriptionBadgesTitle": "Emblemas exclusivos",
+      "subscriberBenefitSubscriptionBadgesDescription": "{count, plural, one {# emblema disponível na loja para assinantes.} other {# emblemas disponíveis na loja para assinantes.}}",
       "subscriberBenefitPlaylistLimitTitle": "{count} faixas por playlist",
       "subscriberBenefitPlaylistLimitDescription": "O limite free atual é {freeCount}.",
       "subscriberBenefitRoomLimitTitle": "{count} salas próprias",
@@ -3293,6 +3293,19 @@
       "common": {
         "justNow": "Agora há pouco",
         "closeDialog": "Fechar"
+      },
+      "system": {
+        "eyebrow": "Sistema",
+        "title": "Modo de manutenção",
+        "subtitle": "Bloqueia o acesso ao site para todos, exceto admins e desenvolvedores.",
+        "updatedAtLabel": "Última atualização:",
+        "enabled": "Ativado",
+        "disabled": "Desativado",
+        "enableAria": "Ativar modo de manutenção",
+        "disableAria": "Desativar modo de manutenção",
+        "enabledSuccess": "Modo de manutenção ativado com sucesso.",
+        "disabledSuccess": "Modo de manutenção desativado com sucesso.",
+        "saveError": "Não foi possível atualizar o modo de manutenção."
       },
       "account": {
         "title": "Conta",
@@ -5715,7 +5728,7 @@
         "subscriberPerksRoleEmailVerified": "Email verificado",
         "subscriberPerksRoleSupporterBadge": "Badge de supporter",
         "subscriberPerksFavoritesTitle": "Favoritos e emotes globais",
-        "subscriberPerksFavoritesSubtitle": "Defina perks ligados às salas favoritados pelo assinante.",
+        "subscriberPerksFavoritesSubtitle": "Defina perks ligados às salas favoritas do assinante.",
         "subscriberPerksFavoriteGlobalEmojiLabel": "Usar emotes globais das salas favoritas",
         "subscriberPerksFavoriteGlobalEmojiHint": "Quando ativo, assinantes podem usar em qualquer chat os emotes personalizados das salas que favoritaram.",
         "subscriberPerksSaveFooterTitle": "Aplicação em tempo real",
@@ -5796,7 +5809,7 @@
           "descriptionEnUs": "Descrição (en-US)",
           "descriptionEnUsPlaceholder": "Explain what this role is for.",
           "icon": "Ícone",
-          "iconPlaceholder": "IconIdBadge2 ou https://.../icone.png",
+          "iconPlaceholder": "IconIdBadge2 ou https://.../icon.png",
           "iconHint": "Aceita nome de ícone Tabler ou URL de imagem.",
           "colorHex": "Cor",
           "colorHexPlaceholder": "#7dd3fc",
@@ -5888,7 +5901,7 @@
           "namePtBr": "Nome (pt-BR)",
           "nameEnUs": "Nome (en-US)",
           "icon": "Ícone",
-          "iconPlaceholder": "IconCrown ou https://.../icone.png",
+          "iconPlaceholder": "IconCrown ou https://.../icon.png",
           "colorHex": "Cor HEX"
         }
       },
@@ -6020,7 +6033,7 @@
         "stockLimitSummary": "Limite: {count}",
         "subscriber": "Assinante",
         "subscriberOnly": "Exclusivo para assinante",
-        "subscriberOnlyHint": "Quando ativado, este emblema fica liberado apenas para assinantes e não usa moedas nem diamantes.",
+        "subscriberOnlyHint": "Quando ativado, este emblema aparece na loja para todos, mas só assinantes ativos conseguem resgatar.",
         "triggerLabel": "Gatilho",
         "manualTrigger": "Concedida manualmente",
         "previewTitle": "Prévia do emblema",
@@ -6272,7 +6285,9 @@
           "playlist_tracks_added": "Faixas adicionadas em playlists",
           "subscription_streak": "Sequência de assinatura",
           "superfans_count": "Novos superfãs",
-          "fans_count": "Novos fãs"
+          "fans_count": "Novos fãs",
+          "discord_linked": "Discord vinculado",
+          "lastfm_linked": "Last.fm vinculado"
         },
         "fields": {
           "id": "ID da conquista",

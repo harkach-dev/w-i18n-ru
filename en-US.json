@@ -45,6 +45,12 @@
     },
     "footer": {
       "description": "Get in line. Drop your song. Or just stay and listen — just people playing music, together.",
+      "product": "Product",
+      "productLinks": {
+        "explore": "Explore rooms",
+        "howItWorks": "How it works",
+        "createRoom": "Create room"
+      },
       "community": "Community",
       "legal": "Legal",
       "legalLinks": {
@@ -2834,13 +2840,13 @@
       "subscriberBenefitPremiumAvatarsTitle": "Premium avatars",
       "subscriberBenefitPremiumAvatarsDescription": "Use Premium avatars without spending diamonds per item.",
       "subscriberBenefitPremiumBadgesTitle": "Premium badges",
-      "subscriberBenefitPremiumBadgesDescription": "Equip Premium badges unlocked for subscribers.",
+      "subscriberBenefitPremiumBadgesDescription": "Buy or claim Premium badges exclusive to subscribers.",
       "subscriberBenefitPremiumBackgroundsTitle": "Premium backgrounds",
       "subscriberBenefitPremiumBackgroundsDescription": "Choose Premium backgrounds to customize your rooms.",
       "subscriberBenefitPremiumVideoFramesTitle": "Premium video frames",
       "subscriberBenefitPremiumVideoFramesDescription": "Customize the player with Premium video frames.",
-      "subscriberBenefitSubscriptionBadgesTitle": "Automatic badges",
-      "subscriberBenefitSubscriptionBadgesDescription": "{count, plural, one {# badge delivered automatically when you subscribe.} other {# badges delivered automatically when you subscribe.}}",
+      "subscriberBenefitSubscriptionBadgesTitle": "Exclusive badges",
+      "subscriberBenefitSubscriptionBadgesDescription": "{count, plural, one {# badge available in the store for subscribers.} other {# badges available in the store for subscribers.}}",
       "subscriberBenefitPlaylistLimitTitle": "{count} tracks per playlist",
       "subscriberBenefitPlaylistLimitDescription": "The current free limit is {freeCount}.",
       "subscriberBenefitRoomLimitTitle": "{count} owned rooms",
@@ -6022,7 +6028,7 @@
         "hidden": "Hidden",
         "subscriber": "Subscriber",
         "subscriberOnly": "Subscriber exclusive",
-        "subscriberOnlyHint": "When enabled, this badge is only unlocked for subscribers and no longer uses coins or diamonds.",
+        "subscriberOnlyHint": "When enabled, this badge appears in the store for everyone, but only active subscribers can claim it.",
         "triggerLabel": "Trigger",
         "manualTrigger": "Granted manually",
         "previewTitle": "Badge preview",
@@ -6274,7 +6280,9 @@
           "playlist_tracks_added": "Tracks added to playlists",
           "subscription_streak": "Subscription streak",
           "superfans_count": "New superfans",
-          "fans_count": "New fans"
+          "fans_count": "New fans",
+          "discord_linked": "Discord linked",
+          "lastfm_linked": "Last.fm linked"
         },
         "fields": {
           "id": "Achievement ID",
