@@ -6820,6 +6820,9 @@
                 "collectionCount": "{count, plural, one {Значок #} other {# значки}}",
                 "selectBadge": "Функция {name}",
                 "removeBadge": "Удалить {name} из основных моментов",
+                "searchLabel": "Поиск значков",
+                "searchPlaceholder": "Искать значки по названию, описанию или ID...",
+                "emptySearch": "Нет значков по этому запросу.",
                 "previousPage": "Предыдущая страница",
                 "nextPage": "Следующая страница"
             },

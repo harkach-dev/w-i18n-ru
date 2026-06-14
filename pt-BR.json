@@ -6820,6 +6820,9 @@
         "collectionCount": "{count, plural, one {# emblema} other {# emblemas}}",
         "selectBadge": "Destacar {name}",
         "removeBadge": "Remover {name} dos destaques",
+        "searchLabel": "Buscar emblemas",
+        "searchPlaceholder": "Buscar emblema por nome, descrição ou ID...",
+        "emptySearch": "Nenhum emblema encontrado com essa busca.",
         "previousPage": "Página anterior",
         "nextPage": "Próxima página"
       },

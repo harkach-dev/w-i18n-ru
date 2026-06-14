@@ -6820,6 +6820,9 @@
         "collectionCount": "{count, plural, one {# badge} other {# badges}}",
         "selectBadge": "Feature {name}",
         "removeBadge": "Remove {name} from highlights",
+        "searchLabel": "Search badges",
+        "searchPlaceholder": "Search badges by name, description, or ID...",
+        "emptySearch": "No badges matched this search.",
         "previousPage": "Previous page",
         "nextPage": "Next page"
       },
