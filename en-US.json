@@ -1564,7 +1564,8 @@
         "anonymousDonor": "Someone"
       },
       "welcomeBanner": {
-        "title": "Welcome message"
+        "title": "Welcome message",
+        "dismiss": "Hide welcome message"
       },
       "welcomeManager": {
         "title": "Welcome message",
@@ -1890,6 +1891,7 @@
         "autocomplete": "Emoji suggestions",
         "button": "Open emoji picker",
         "searchPlaceholder": "Search emoji or shortcode",
+        "frequentlyUsed": "Frequently used",
         "noResults": "No emojis found."
       },
       "gifPicker": {

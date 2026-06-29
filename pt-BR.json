@@ -1564,7 +1564,8 @@
         "anonymousDonor": "Alguém"
       },
       "welcomeBanner": {
-        "title": "Mensagem de boas-vindas"
+        "title": "Mensagem de boas-vindas",
+        "dismiss": "Ocultar mensagem de boas-vindas"
       },
       "welcomeManager": {
         "title": "Mensagem de boas-vindas",
@@ -1890,6 +1891,7 @@
         "autocomplete": "Sugestões de emoji",
         "button": "Abrir seletor de emoji",
         "searchPlaceholder": "Buscar emoji ou shortcode",
+        "frequentlyUsed": "Usados com frequência",
         "noResults": "Nenhum emoji encontrado."
       },
       "gifPicker": {
